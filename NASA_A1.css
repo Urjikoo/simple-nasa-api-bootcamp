@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+h1 {
+  animation: h1 1s ease-in-out infinite alternate;
+  font-family: "Orbitron", sans-serif;
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+}
+
+@-webkit-keyframes h1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #2026df,
+      0 0 40px #0c28c5, 0 0 50px #097adc, 0 0 60px #0b0bcc, 0 0 70px #e60073;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #bfcac8, 0 0 40px #f11e88,
+      0 0 50px #baafb5, 0 0 60px #a0959b, 0 0 70px #b6afb3, 0 0 80px #2e282b;
+  }
+}
+.content_box {
+  text-align: center;
+}
+#content {
+  margin-top: 25px;
+}
+/* img {
+  width: 750px;
+  height: 450px;
+  align-items: center;
+  margin-left: 20%;
+} */
+#explanation_p,
+#title {
+  color: rgb(214, 214, 230);
+  /* float: left; */
+  width: 75%;
+  align-items: center;
+  margin-left: 20%;
+}
+.output_V,
+.output_I {
+  width: 70px;
+}
